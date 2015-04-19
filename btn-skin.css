@@ -1,0 +1,34 @@
+/* 
+   #btn
+   ========================================================================== */
+
+/**
+ * The btn object is a baseline for creating buttons.
+ *
+ * <a class="bare-btn" href="#"></a>
+ */
+
+.bare-btn {
+	background: #E5E5E5;
+	color: inherit;
+	border-radius: 2px;
+}
+
+	.bare-btn:hover {
+		background: #DBDBDB;
+	}
+
+/* 
+   #btn--active
+   ========================================================================== */
+
+/**
+ * The btn--active modifier creates buttons that appear "pressed"
+ *
+ * <a class="bare-btn bare-btn--active" href="#"></a>
+ */
+
+.bare-btn:active,
+.bare-btn--active {
+	background: #E5E5E5;
+}

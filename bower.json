@@ -1,0 +1,20 @@
+{
+  "name": "bare-button",
+  "version": "0.1.0",
+  "authors": [
+    "Eric-Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The btn object is a baseline for creating buttons.",
+  "main": "btn-core.css",
+  "keywords": [
+    "Css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

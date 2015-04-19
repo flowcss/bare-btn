@@ -1,0 +1,43 @@
+/* 
+   #btn
+   ========================================================================== */
+
+/**
+ * The btn object is a baseline for creating buttons.
+ *
+ * <a class="bare-btn" href="#"></a>
+ */
+
+.bare-btn {
+    display: inline-block;
+    zoom: 1;
+    padding: 0.75em 1.5em;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* 
+   #btn--disabled
+   ========================================================================== */
+
+/**
+ * The btn--disabled modifier creates disabled buttons.
+ *
+ * <a class="bare-btn bare-btn--disabled" href="#"></a>
+ */
+
+.bare-btn--disabled[disabled],
+.bare-btn--disabled,
+.bare-btn--disabled:hover,
+.bare-btn--disabled:active {
+	opacity: .6;
+	cursor: not-allowed;
+	pointer-events: none;
+}
